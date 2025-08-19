@@ -79,7 +79,8 @@ jobs:
 
     # Restore project dependencies
     - name: Install dependencies
-      run: dotnet workload install wasm-tools-net7
+      #run: dotnet workload install wasm-tools-net7
+      run: dotnet workload restore
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
