@@ -7,6 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <CheckEolWorkloads>false</CheckEolWorkloads>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
   </PropertyGroup>
 
